@@ -27,6 +27,7 @@ CREATE TABLE Trades (
     TradeType VARCHAR(10) CHECK (TradeType IN ('BUY','SELL'))
 );
 ```
+
 ## Database Setup
 
 - **Java 8 or later**: The application requires Java 8 or newer for execution.
