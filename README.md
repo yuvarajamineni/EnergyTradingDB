@@ -26,10 +26,8 @@ CREATE TABLE Trades (
     Price DECIMAL(10,2) NOT NULL,
     TradeType VARCHAR(10) CHECK (TradeType IN ('BUY','SELL'))
 );
-
-# Application Setup Guide
-
-## Requirements
+```
+## Database Setup
 
 - **Java 8 or later**: The application requires Java 8 or newer for execution.
 - **SQL Database**: A running instance of SQL Server or another relational database.
@@ -45,6 +43,7 @@ Clone this project to your local machine using the following command:
 
 ```bash
 git clone https://github.com/yourusername/your-repository-name.git
+```
 
 ### 3. Configure Database Connection
 
